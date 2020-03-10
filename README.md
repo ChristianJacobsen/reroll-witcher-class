@@ -79,7 +79,7 @@ When lobbed up to 30 feet as an action, the bomb detonates releasing freezing co
 Ingredients:
 Salts worth 5gp, herbs worth 5gp
 
-When lobbed up to 30 feet as an action, the bomb detonates in a bright flash. Creatures within 10 feet of the explosion take 1d8 radiant damage and must make a DC 14 Constitution saving throw or be until the end of their next turn.
+When lobbed up to 30 feet as an action, the bomb detonates in a bright flash. Creatures within 10 feet of the explosion take 1d8 radiant damage and must make a DC 14 Constitution saving throw or be blinded until the end of their next turn.
 
 #### Potion: Blizzard
 
