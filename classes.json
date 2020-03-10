@@ -1,0 +1,445 @@
+[
+    {
+        "name": "Witcher",
+        "hit_die": 8,
+        "combat_resource": "Focus",
+        "spell_attack_ability": "WIS",
+        "skills_count_choose": 3,
+        "skills": [
+            "Acrobatics",
+            "Arcana",
+            "Athletics",
+            "Insight",
+            "Investigation",
+            "Nature",
+            "Perception",
+            "Survival"
+        ],
+        "saving_throws": [
+            "DEX",
+            "INT"
+        ],
+        "level_for_subclass": 3,
+        "levels_for_asi_bonuses": [
+            4,
+            8,
+            12,
+            16,
+            19
+        ],
+        "class_features": [
+            {
+                "name": "Alchemy",
+                "desc": "At 1st level, you have been trained in the specialized alchemy used by witchers to prepare themselves for combat. During a short rest, you can use Alchemist's supplies to craft a potion, oil, or bomb if you have the required ingredients and know the appropriate recipe, a list of which are found at the end of this class description. You can carry 2 alchemy products at any given time, and only you can use the products you create.\n\nThe number of recipes you know is equal to your proficiency bonus + your Intelligence modifier. At the DM's discretion, other recipes may be available for purchase or found in the world.",
+                "level": 1
+            },
+            {
+                "name": "Mutations",
+                "desc": "As a witcher, you have undergone mutations to your body including the perilous Trial of the Grasses. Starting at 1st level, you gain the following benefits:\n\n- Your walking speed is increased by 5 feet. At 10th level, this bonus increases to 10 feet. At 18th level, this bonus increases to 20 feet, and you gain a climbing speed equal to your walking speed.\n- You have darkvision, up to a range of 30 feet. At 10th level, this range increases to 60 feet. At 18th level, this range increases to 120 feet, and you also gain blindsight to a range of 30 feet.\n- You have advantage on Wisdom (Perception) and Wisdom (Survival) checks based on smell.\n- You are immune to natural diseases.\n- You are completely sterile - you can have no children through natural means.\n- Your lifespan is extended dramatically - you age at a rate 10 times slower than regular members of your race.",
+                "level": 1
+            },
+            {
+                "name": "Focus",
+                "desc": "At 2nd level, you have learned the art of reading your opponent and the battlefield, allowing you to enhance your attacks and use powerful abilities. Your focus is set to 1 when you roll initiative, and you gain 1 focus each time you successfully hit with a weapon attack, up to your focus cap, which is detailed on the witcher class table. You lose all focus after combat ends.\n\nWhen you make a weapon attack, you can spend 2 focus to grant yourself advantage on that attack; if you do so, that attack cannot generate focus.\n\nStarting at 11th level, your focus is set to 3 when you roll initiative instead of 1.",
+                "level": 2
+            },
+            {
+                "name": "Signs",
+                "desc": "Starting at 2nd level, you are able to channel your focus to cast a few simple but practical magic hexes used by witchers called signs. You can cast a sign in place of a weapon attack when you take the Attack action on your turn. Casting a sign costs 1 focus, and you can only cast one sign on your turn. You can't cast a sign while holding something in each hand or wielding a weapon with the two-handed property.\n\nSigns are considered level 1 evocation spells with somatic components for the purposes of other magical effects, and are not considered weapon attacks.\n\nYou learn two signs at 2nd level, and another at 5th, 9th, and 13th level.\n\nThe saving throw DC is calculated as follows:\nSign save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nAard\nYou blow a powerful burst of air at a creature within 15 feet. It must make a Strength saving throw or be pushed 10 feet back and knocked prone. When empowered, all creatures in a 5 foot radius sphere around you are affected instead.\n\nYou can also cast the Gust cantrip at will.\n\nAxii\nYou attempt to cloud the mind of a creature within 15 feet. It must make a Wisdom saving throw; on a failed save, the creature has disadvantage on the first attack it makes until the end of its next turn. A creature immune to being charmed automatically succeeds on its save. When empowered, the affected creature loses its first attack entirely.\n\nYou can also cast the Friends cantrip at will.\n\nIgni\nYou blast flames at a creature within 15 feet. It must make a Dexterity saving throw, taking 2d6 fire damage on a failed save or half that on a successful save. When empowered, all creatures in a 15 foot cone are affected instead.\n\nThis damage increases by 1d6 at 5th(3d6), 11th(4d6), and 17th(5d6) level.\n\nYou can also cast the Control Flames cantrip at will.\n\nQuen\nYou place a protective shield on yourself. For the next minute, the first time you take damage from a weapon attack, that damage is reduced by 1d8. When empowered, you can cast this as a reaction to being attacked.\n\nThis reduction increases by 1d8 at 5th(2d8), 11th(3d8), and 17th(4d8) level.\n\nYrden\nYou place down a magical circle with a radius of 10 feet around you that lasts one minute. Inside the circle is difficult terrain for hostile creatures and enemies resistant to only nonmagical damage lose this ability. When empowered, all ranged attacks from hostile creatures made into the circle from without are made with disadvantage.",
+                "level": 2
+            },
+            {
+                "name": "Witcher School",
+                "desc": "At 3rd level, you choose a witcher school whose techniques and style you wish to employ. Choose between the School of the Wolf, Bear, Cat, Griffin, or Viper, detailed at the end of this class description. The school you choose grants you features at 3rd level, then again at 7th, 10th, and 14th level.",
+                "level": 3
+            },
+            {
+                "name": "Ability Score Improvement",
+                "desc": "When you reach 4th, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat.",
+                "level": 4
+            },
+            {
+                "name": "Extra Attack",
+                "desc": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+                "level": 5
+            },
+            {
+                "name": "Studious Eye",
+                "desc": "By 6th level, you have learned to identify certain traits and characteristics in creatures you fight. By either observing a creature for 1 minute or spending 1 focus as a bonus action, you learn one aspect about the creature of your choice: Creature Type, Armor Class, Senses, Damage Vulnerabilities, Damage Resistances, Damage Immunities, or Condition Immunities. At 13th level you may learn two aspects of your choice instead.\n\nAdditionally, choose one of Intelligence (Investigation), Wisdom (Perception), Wisdom (Insight), or Wisdom (Survival) that you are proficient in; your proficiency bonus is doubled for any ability check that uses the chosen skill. At 13th level, you can choose another proficiency from the list.",
+                "level": 6
+            },
+            {
+                "name": "Witcher School Feature",
+                "desc": "At 7th level, you gain a feature from your Witcher School.",
+                "level": 7
+            },
+            {
+                "name": "Ability Score Improvement",
+                "desc": "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat.",
+                "level": 8
+            },
+            {
+                "name": "Empowered Signs",
+                "desc": "Starting at 9th level, you can use signs in new, more powerful variants for an enhanced effect. By consuming 2 additional focus, you can cast an alternative form of each sign as detailed in their descriptions.",
+                "level": 9
+            },
+            {
+                "name": "Witcher School Feature",
+                "desc": "At 10th level, you gain a feature from your Witcher School.",
+                "level": 10
+            },
+            {
+                "name": "Battle Signs",
+                "desc": "At 11th level, you can incorporate signs more easily into your assault. When you take the Attack action on your turn, you can cast a sign without forgoing any of your weapon attacks. Additionally, at the end of each of your turns, if you haven't cast a sign this turn, you gain 1 focus.",
+                "level": 11
+            },
+            {
+                "name": "Ability Score Improvement",
+                "desc": "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat.",
+                "level": 12
+            },
+            {
+                "name": "Quick Wits",
+                "desc": "Starting at 13th level, you are quick to act and ready to leap into combat at an opportune time. When you roll initiative, you may roll the d20 twice and choose which roll to use.",
+                "level": 13
+            },
+            {
+                "name": "Witcher School Feature",
+                "desc": "At 14th level, you gain a feature from your Witcher School.",
+                "level": 14
+            },
+            {
+                "name": "Evasion",
+                "desc": "At 15th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
+                "level": 15
+            },
+            {
+                "name": "Ability Score Improvement",
+                "desc": "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat.",
+                "level": 16
+            },
+            {
+                "name": "Foil",
+                "desc": "Starting at 17th level, you are capable of interrupting the spells and abilities of your opponents. When a creature forces you or a friendly creature to make a saving throw, you can use your reaction to make a weapon attack against it. If your attack successfully hits, any creature affected automatically succeeds on their save against the effect. Once you use this feature, you cannot use it again until you complete a long rest.",
+                "level": 17
+            },
+            {
+                "name": "Alchemy Expertise",
+                "desc": "At 18th level, you have mastered efficiently using materials and recycling components in your alchemical crafts. You ignore crafting components when creating Alchemy products. Additionally, you can carry 3 products at a time, instead of 2. When you gain this feature, you learn 4 new Alchemy recipes of your choice.",
+                "level": 18
+            },
+            {
+                "name": "Ability Score Improvement",
+                "desc": "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.\n\nIf your DM allows the use of feats, you may instead take a feat.",
+                "level": 19
+            },
+            {
+                "name": "Adrenaline Rush",
+                "desc": "At 20th level, you can utilize your adrenaline to burst into a rush of action. At the end of your turn, if you have 5 focus available, you can choose to immediately take another turn; at the end of that turn, you lose all focus. Once you use this feature, you cannot use it again until you complete a long rest.",
+                "level": 20
+            }
+        ],
+        "levels": [
+            {
+                "number": 1,
+                "prof_bonus": 2,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 2,
+                "prof_bonus": 2,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 3,
+                "prof_bonus": 2,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 4,
+                "prof_bonus": 2,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 5,
+                "prof_bonus": 3,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 6,
+                "prof_bonus": 3,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 7,
+                "prof_bonus": 3,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 8,
+                "prof_bonus": 3,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 9,
+                "prof_bonus": 4,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 10,
+                "prof_bonus": 4,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 11,
+                "prof_bonus": 4,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 12,
+                "prof_bonus": 4,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 13,
+                "prof_bonus": 5,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 14,
+                "prof_bonus": 5,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 15,
+                "prof_bonus": 5,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 16,
+                "prof_bonus": 5,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 17,
+                "prof_bonus": 6,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 18,
+                "prof_bonus": 6,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 19,
+                "prof_bonus": 6,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "number": 20,
+                "prof_bonus": 6,
+                "spell_levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+]

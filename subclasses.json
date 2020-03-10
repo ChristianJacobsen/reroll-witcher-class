@@ -1,0 +1,137 @@
+[
+    {
+        "class": "Witcher",
+        "name": "School of the Bear",
+        "desc": "Honorable and stout, the witchers of the School of the Bear focus on holding their ground rather than dancing around their foes. Through their unique training, strength, and tenacity, Bear school witchers can stand up to powerful warriors and beasts alike.",
+        "subclass_features": [
+            {
+                "name": "Heavy Gear Training",
+                "desc": "Starting at 3rd level, you can ignore the somatic requirement of signs while using weapons with the two-handed property. Additionally, you gain proficiency with heavy armor.",
+                "level": 3
+            },
+            {
+                "name": "Vitalic Blows",
+                "desc": "At 7th level, you can imbue your strikes with your own vigor; when you hit with a melee weapon attack, you can expend 2 focus to spend one of your hit dice and add it to your damage on that attack. Starting at 14th level, you can choose to expend 2 hit dice instead. When you use your Vitalic Blows feature, you can make a Shove attack as a bonus action for the rest of the turn.",
+                "level": 7
+            },
+            {
+                "name": "Thick Skin",
+                "desc": "By 10th level, you have developed natural defenses on your body to defend you from the elements; you are resistant to adverse effects due to extreme weather and temperatures, and have resistance to fire and cold damage.",
+                "level": 10
+            },
+            {
+                "name": "Ursine Endurance",
+                "desc": "By 14th level, your ability to withstand damage and resist malignant effects has been improved through intense conditioning. You gain proficiency in Constitution and Strength saving throws; additionally, when you fail a saving throw at which you are proficient, you can choose to succeed instead. Once this feature is used, it cannot be used again until you complete a long rest.",
+                "level": 14
+            }
+        ]
+    },
+    {
+        "class": "Witcher",
+        "name": "School of the Cat",
+        "desc": "The only school known to accept contracts on humans, the School of the Cat has largely become ostracized by their fellow witchers for this breach of their honor code. The school's effectiveness, however, cannot be doubted. Aggressive and flexible, the school focuses on landing many strikes to exploit weaknesses while avoiding damage through mobility.",
+        "subclass_features": [
+            {
+                "name": "Improved Critical",
+                "desc": "Starting at 3rd level, you critical strike on a roll of 19 or 20 on the d20. Additionally, when you critically strike you gain focus up to your cap.",
+                "level": 3
+            },
+            {
+                "name": "Quick Reflexes",
+                "desc": "Starting at 7th level, you are quick to respond to threats and retreat. When a creature makes an attack roll against you, you can choose to consume 1 focus and use your reaction to impose disadvantage on that attack. As a part of the same reaction, you can move 10 feet without provoking opportunity attacks.",
+                "level": 7
+            },
+            {
+                "name": "Impeccable Instinct",
+                "desc": "At 10th level, your instincts prevent you from being caught flatfooted. You can add your proficiency bonus to initiative rolls, and cannot be surprised. Additionally, when you make a Dexterity saving throw, you can expend 2 focus to grant yourself advantage.",
+                "level": 10
+            },
+            {
+                "name": "Deadly Flurry",
+                "desc": "At level 14, you can use your focus to unleash a flurry of blows. When you take the Attack action, you can expend 3 focus to make two additional weapon attacks as part of that action.\n\nOnce you use this feature, you cannot use it again until you complete a long rest or critically strike with a weapon attack.",
+                "level": 14
+            }
+        ]
+    },
+    {
+        "class": "Witcher",
+        "name": "School of the Griffin",
+        "desc": "With honor and dignity, members of the School of the Griffin pride themselves on dispatching enemies and fulfilling contracts with utmost efficiency. Witchers of the Griffin school focus on enhancing their utilitarian magical spells and weaving them into their combat techniques.",
+        "subclass_features": [
+            {
+                "name": "Total Focus",
+                "desc": "At 3rd level, you can close out all irrelevant sensory information to take in the battlefield. As a bonus action, you can mark a creature; the marked creature has disadvantage on saves against all your signs. You can only mark a new creature after either killing the currently marked creature or removing the mark as an action. Additionally, your focus cap increases by 1.",
+                "level": 3
+            },
+            {
+                "name": "Sign Intensity",
+                "desc": "Starting at 7th level, you can channel additional energy into your signs to grant them new applications. When you cast a sign, you can expend 1 extra focus to add an extra effect as listed below.\n\nAard\nCreatures that fail their saving throw against your Aard sign also take 1d10 cold damage and have their movement reduced in half until the end of their next turn.\n\nAxii\nA creature that fails its saving throw against your Axii sign has disadvantage on all saves to maintain its concentration on a spell until the end of its next turn.\n\nIgni\nCreatures that fail their saving throw against your Igni sign drop any weapons or held items made of metal or flammable materials. Creatures resistant to fire damage are unaffected by this.\n\nQuen\nA creature that triggers your Quen shield with a melee attack is pushed back 5 feet. If the attack's damage is reduced to zero, the attacker is also knocked prone.\n\nYrden\nHostile creatures take 1d12 force damage when they start their turns inside or enter the circle.",
+                "level": 7
+            },
+            {
+                "name": "Opulence",
+                "desc": "At 10th level, you can channel the royal pride of a griffin to command an air of authority. You gain proficiency in the Persuasion skill. Additionally, when you make a Charisma saving throw, you can expend 2 focus to grant yourself advantage.",
+                "level": 10
+            },
+            {
+                "name": "Elemental Flow",
+                "desc": "Beginning at 14th level, your mastery of signs allows you to use the energy they release to charge your weapon with arcane power. After you cast a sign, you may charge a weapon that you are holding provided it is not already charged with this feature. The next time you hit with a weapon attack using that weapon, that attack deals an additional 1d6 fire, lightning, or cold (your choice) damage and generates an additional 1 focus. If unused, this effect fades after one minute.",
+                "level": 14
+            }
+        ]
+    },
+    {
+        "class": "Witcher",
+        "name": "School of the Viper",
+        "desc": "Based in an unknown location and possibly dissolved, the School of the Viper is a secretive organization, its students few and scattered. The school is known for doing whatever needs to be done for a contract, specializing in hit and run tactics some may call dirty fighting.",
+        "subclass_features": [
+            {
+                "name": "Dual Wielder",
+                "desc": "Starting at 3rd level, you can adopt the traditional two-weapon fighting technique of the Viper School. You can ignore the somatic requirement of signs while using two-weapon fighting; additionally, you gain the Two Weapon Fighting fighting style.",
+                "level": 3
+            },
+            {
+                "name": "Slippery",
+                "desc": "At 7th level, you are hard to keep in place and adept at escaping sticky situations. You can expend 1 focus to use Disengage or Dash as a bonus action; if you do, you can also remove the restrained or grappled condition from yourself.",
+                "level": 7
+            },
+            {
+                "name": "Tolerance",
+                "desc": "By 10th level, you have become accustomed to metabolizing toxic materials. You have resistance to poison damage, and advantage on saving throws against the effects of poisons and venoms. Additionally, when applying sword oil you can choose humanoid as the target creature type.",
+                "level": 10
+            },
+            {
+                "name": "Killing Strike",
+                "desc": "Starting at 14th level, your strikes are specialized at finishing off weakened enemies. Once per turn, when you hit a creature whose current health is less than half its max health with a weapon attack, your attack deals an additional 3d6 damage of your weapon's type. Additionally, once per turn when you kill a creature, you gain 2 focus and can make an additional weapon attack as a part of your Attack action.",
+                "level": 14
+            }
+        ]
+    },
+    {
+        "class": "Witcher",
+        "name": "School of the Wolf",
+        "desc": "Based in Kaer Morhen, the School of the Wolf is perhaps the most renowned and populous school still around, although still home to few students. The school focuses on mastering the basic witcher techniques, complementing them with new maneuvers to deal with any kind of monstrous prey.",
+        "subclass_features": [
+            {
+                "name": "Battle Trance",
+                "desc": "Your razor sharp focus guides your attacks in combat. Starting at 3rd level, your weapon attacks deal additional damage equal to your current focus.",
+                "level": 3
+            },
+            {
+                "name": "Spins and Pirouettes",
+                "desc": "Starting at 7th level, you can nimbly leap across the battlefield to engage opponents. Before making a melee weapon attack or casting a sign, you can move 5 feet without spending any of your movement. If this movement provokes an opportunity attack, it is made with disadvantage.",
+                "level": 7
+            },
+            {
+                "name": "Arrow Deflection",
+                "desc": "By 10th level, you have learned to defend yourself from projectiles by parrying them. When a creature makes a ranged weapon attack against you, you can use your reaction and spend 1 focus to make an attack roll with a melee weapon you are holding; if your total is higher than the creature's attack roll, their attack misses.",
+                "level": 10
+            },
+            {
+                "name": "Rushing Agility",
+                "desc": "At 14th level, you can use your focus to execute especially aggressive attacks. You learn the following maneuvers, which you can use as an action by expending 3 focus:\n\nWhirl\nYou whirl around, attacking all creatures around you. Make a melee weapon attack against each creature of your choice within 5 feet.\n\nRend\nYou take a wide, heavy swing at a creature. Make a melee weapon attack; if it hits, the attack automatically critically strikes and the target creature must make a DC 20 Constitution saving throw. On a failed save, the creature's AC is reduced by 2 for one minute. This reduction does not stack.",
+                "level": 14
+            }
+        ]
+    }
+]
